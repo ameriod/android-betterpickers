@@ -17,6 +17,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".activity.defaultpickers.DefaultPickersActivity"
+            android:label="Default Pickers">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.doomonafireball.betterpickers.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activity.timepicker.SampleTimeBasicUsage"
             android:label="Time/Basic Usage"
             android:theme="@style/Theme.AppCompat">
